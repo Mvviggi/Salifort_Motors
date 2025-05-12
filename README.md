@@ -27,7 +27,7 @@ salary|The employee's salary (U.S. dollars)
 4. Used Excel Pivot Table for a first glance of the data, and then used the dataset in Visual Studio Code for all EDA, Construct, and Execute phase.
 5. Given this dataset was provided by Coursera and created for a fictional company, it can be assumed it reliability and originality.
 
-#### Analyze Stage 
+### Analyze Stage 
 Summary of EDA performed:
 1. Removed duplicates
 2. Check for outliers: tenure column had 824 rows
@@ -39,9 +39,14 @@ Summary of EDA performed:
     b. Create data visualizations to evaluate relationships between independent and dependent variables.
 7. Results indicate that 16% of employees left while 83% of employees stayed at the company.
 
-Some EDA visualization:
+Total of surveys submitted by Department
 ![Counts of survey forms submtted by Department](departmentcount.png)
 
 Correlation Heatmap
 ![Columns Correlation Heatmap](correlationheatmap.png)
 The heatmap above shows that the employees that left the company correlated negatively with satisfaction_level. Meanwhile, the number of projects, average monthly hours and  evaluation scores had a positive correlation with each other. 
+
+### Construct Stage
+Independent variable chosen are: 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', 'tenure'. 
+2. Two variables (departments adn sales) are categorical variables that need to be converted in order to include in the models.
+3. Logistic regression model is vulnerable to outliers, which will be considered when constructing this model.
