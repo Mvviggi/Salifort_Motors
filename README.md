@@ -47,6 +47,6 @@ Correlation Heatmap
 The heatmap above shows that the employees that left the company correlated negatively with satisfaction_level. Meanwhile, the number of projects, average monthly hours and  evaluation scores had a positive correlation with each other. 
 
 ### Construct Stage
-Independent variable chosen are: 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', 'tenure'. 
-2. Two variables (departments adn sales) are categorical variables that need to be converted in order to include in the models.
+1. Independent variable chosen are: 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', 'tenure'. <br>
+2. Two variables (departments adn sales) are categorical variables that need to be converted in order to include in the models. <br>
 3. Logistic regression model is vulnerable to outliers, which will be considered when constructing this model.
