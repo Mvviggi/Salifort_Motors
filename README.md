@@ -97,7 +97,7 @@ Table results of the Decision tree vs Random Forest Model
 
 
 --------------------------------------------------------------------------------------------------------------
-Find Stages in detail:
+Find Stages in detail: <br>
  Analyze Stage [Capstone Analyze Stage](https://github.com/Mvviggi/Salifort_Motors/blob/f91f7240a5f87f6ea9cca6af9c002b3e5d7f6be9/Salifort_Motors_Capstone_EDA.ipynb) <br>
 
  Construct Stage[Capstone Construct Stage](https://github.com/Mvviggi/Salifort_Motors/blob/f91f7240a5f87f6ea9cca6af9c002b3e5d7f6be9/Salifort%20Motors_Capstone_Construct.ipynb) <br>
