@@ -48,10 +48,14 @@ Summary of EDA performed:
 7. Results indicate that 16% of employees left while 83% of employees stayed at the company.
 
 Total of surveys submitted by Department
+
 ![Counts of survey forms submtted by Department](departmentcount.png)
 
 Correlation Heatmap
+
 ![Columns Correlation Heatmap](correlationheatmap.png)
+
+
 The heatmap above shows that the employees that left the company correlated negatively with satisfaction_level. Meanwhile, the number of projects, average monthly hours and  evaluation scores had a positive correlation with each other. 
 
 
@@ -68,14 +72,19 @@ The heatmap above shows that the employees that left the company correlated nega
 
 5. Using all variables, the Decision Tree Model resulted in a strong AUC score of 97.5%, showing that this model can predict well if employees leave or not.
 Table results of the Decision tree vs Random Forest Model
-----------------------------------------------------------
-            model  | precision|  recall  |     F1   | accuracy  |     auc
-            -----|-----|
- decision tree cv  | 0.966878 | 0.918288 | 0.941941 | 0.981208  | 0.975895
- random forest cv  | 0.945895 | 0.912254 | 0.928698 |  0.97676  | 0.982177
+
+| model             | precision | recall   | F1       | accuracy | auc      |
+|-------------------|-----------|----------|----------|----------|----------|
+| decision tree cv  | 0.966878  | 0.918288 | 0.941941 | 0.981208 | 0.975895 |
+| random forest cv  | 0.945895  | 0.912254 | 0.928698 | 0.97676  | 0.982177 |
 
 6. The range of average monthly hours is from 96 to 310 hours. Approximately monthly hours of working is 166.67 for an employee  50 weeks a year, 5 days a week for 8 hours per day. It could be defined that overworking is > 175 hrs per month on average. 
 
+ XGBoost test score results were:
+| model       | precision | recall   | F1       | accuracy | 
+|-------------|-----------|----------|----------|----------|
+| XGBoost     | 0.976394  | 0.913654 | 0.943983 | 0.981987 | 
+ 
 
 ### Execute Stage
 1. The XGBoost model was the best-performing machine learning algorithm in predicting employees who stayed with the company.
