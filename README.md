@@ -62,15 +62,15 @@ The heatmap above shows that the employees that left the company correlated nega
 ### Construct Stage
 1. Independent variable chosen were: 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', 'tenure'. <br>
 2. Variables departments and salary were converted into categorical variables in order to be included into the models. <br>
-3. the task in hand is to predict what can make an employee stay or leave the company. The variable called left 
-3. Machine Learning algorithms performed: 
+3. The task in hand is to predict what can make an employee stay or leave the company. The variable called left 
+4. Machine Learning algorithms performed: 
 - Tree Based Model 
 - Random Forest Model 
 - Logistic Regression Model
 
-4. Logistic Regression Model results: the classification report achieved a precision of 81%, recall of 84%, f1-score of 81% all in weighted averages. But the predicted employees who would leave resulted in significantly lower (i.e 53%, 25%, and 34% respectively).
+5. Logistic Regression Model results: the classification report achieved a precision of 81%, recall of 84%, f1-score of 81% all in weighted averages. But the predicted employees who would leave resulted in significantly lower (i.e 53%, 25%, and 34% respectively).
 
-5. Using all variables, the Decision Tree Model resulted in a strong AUC score of 97.5%, showing that this model can predict well if employees leave or not.
+6. Using all variables, the Decision Tree Model resulted in a strong AUC score of 97.5%, showing that this model can predict well if employees leave or not.
 Table results of the Decision tree vs Random Forest Model
 
 | model             | precision | recall   | F1       | accuracy | auc      |
@@ -78,7 +78,7 @@ Table results of the Decision tree vs Random Forest Model
 | decision tree cv  | 0.966878  | 0.918288 | 0.941941 | 0.981208 | 0.975895 |
 | random forest cv  | 0.945895  | 0.912254 | 0.928698 | 0.97676  | 0.982177 |
 
-6. The range of average monthly hours is from 96 to 310 hours. Approximately monthly hours of working is 166.67 for an employee  50 weeks a year, 5 days a week for 8 hours per day. It could be defined that overworking is > 175 hrs per month on average. 
+7. The range of average monthly hours is from 96 to 310 hours. Approximately monthly hours of working is 166.67 for an employee  50 weeks a year, 5 days a week for 8 hours per day. It could be defined that overworking is > 175 hrs per month on average. 
 
  XGBoost test score results were:
 | model       | precision | recall   | F1       | accuracy | 
@@ -93,8 +93,6 @@ Table results of the Decision tree vs Random Forest Model
 4. Working Hours and Overwork: The data results the range of working hours per month is from 90 to 310hr/mo. Exceeding 175 hours per month is considered overworking, suggesting that a better work-life balance and limits on working hours could boost job satisfaction.
 5. Recognition and Morale: Implementing regular performance reviews and providing recognition for completed projects could significantly improve employee morale.
 6. Future Survey Focus: To gain a more comprehensive understanding, future surveys should aim to increase participation from departments like management, IT, and marketing, which had lower response rates compared to sales and technical departments.
-
-
 
 --------------------------------------------------------------------------------------------------------------
 Find Stages in detail: <br>
