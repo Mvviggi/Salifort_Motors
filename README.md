@@ -31,8 +31,8 @@ salary|The employee's salary (U.S. dollars)
 1. The main stakeholders are Salifort’s senior leadership team and the Human Resources department.
 2. Analyze the survey data taken by employees and come up with ideas for how to increase employee retention. 
 3. Employees from the Sales department were the most that took the survey out of 10 departments in the company.
-4. Used Excel Pivot Table for a first glance of the data, and then used the dataset in Visual Studio Code for all EDA, Construct, and Execute phase.
-5. Given this dataset was provided by Coursera and created for a fictional company, it can be assumed it reliability and originality.
+4. Used Excel Pivot Table for a first glance of the data, and then used the dataset in Visual Studio Code (Python3) for all EDA, Construct, and Execute phase.
+5. Given that this dataset was provided by Coursera and created for a fictional company, it can be assumed it reliability and originality.
 
 -------------------------------------------------------------------------------------------------------------
 ### Analyze Stage 
